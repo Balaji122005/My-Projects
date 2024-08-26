@@ -1,14 +1,32 @@
 @media (max-width: 768px) {
     nav {
-        position: static; /* Changes the position to static on small screens */
+        position: static;
         padding: 10px;
     }
     
     .doc1 {
-        display: none; /* Hides the entire container for the doc image */
+        display: none; 
     }
 
-    .doc {
-        display: none; /* Hides the doc image itself */
+    .bed-category {
+        width: 40%; 
+    }
+}
+@media (max-width: 480px) {
+    .bed-category {
+        width: 100%; /* Full width for small screens */
+    }
+
+    .header h1 {
+        font-size: 1.2em;
+    }
+
+    .call-button, .admission-button {
+        padding: 10px;
+        font-size: 0.9em;
+    }
+
+    .bed-count, .vacant-bed {
+        font-size: 1.5em;
     }
 }
