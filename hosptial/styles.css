@@ -221,13 +221,60 @@ background-color: rgb(132, 222, 192);
 
 height: 50px;
 }
+.blood-donation{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right:30px ;
+    margin-top: 25px;
+}
+.blood-donation-det{
+    display: flex;
+    width: 600px;
+    background-color:  rgb(132, 222, 192);
+    height: 350px;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 20px;
+    text-align: center;
+}
+.blood-donation-det h1{
+    font-size: 30px;
+    margin: 20px;
+    color: #7b0000;
+}
+.donate-btn{
+    background-color: rgb(69, 145, 148);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius:10px ;
+font-size: 20px;
+cursor:pointer;
+}
+.donate-btn:hover{
+    background-color: red;
+    color: white;
+}
+.blood-donation-det p{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Josefin Sans", sans-serif;
+    color: rgb(255, 0, 25);
+}
+.blood-donation img{
+    width: 350px;
+    margin: 20px;
+}
 .firstaid{
+    
     width: 400px;
     height: 400px;
 }
 .first-aid-sec{
     display: flex;
     justify-content: center;
+    margin-top: 53px;
 }
 .first-aid h1{
     font-size: 40px;
@@ -240,6 +287,20 @@ height: 50px;
     overflow-y: scroll;
     height: 350px;
     background-color: white;
+}
+.blood-donation-container{
+    margin: 20px;
+    margin-top: 10rem;
+    width: 83%;
+    height: 400px;
+    border-radius: 20px;
+    background-color: white;
+}
+#blood-donation-container-sec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
 }
 #doctor-spec-container{
    justify-content: center;
